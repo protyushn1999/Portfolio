@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './containers/Header/Header';
+import Footer from './containers/Footer/Footer';
+import Skills from './containers/Skills/Skills';
+import Testimonial from './containers/Testimonial/Testimonial';
+import Projects from './containers/Projects/Projects';
+import About from './containers/About/About';
+import Navbar  from './components/Navbar/Navbar';
+
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Navbar />
+      <Header />
+      <About />
+      <Projects />
+      <Skills />
+      {/* <Testimonial /> */}
+      <Footer />
     </div>
   );
 }
+// #ffcf2a
 
 export default App;
