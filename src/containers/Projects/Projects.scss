@@ -82,7 +82,8 @@
     margin: auto;
   
     .app__work-item {
-      width: 260px;
+      width: 20em;
+      height: 30em;
       flex-direction: column;
       margin: 2em;
       padding: 1em;
@@ -113,9 +114,11 @@
   
   .app__work-img {
     width: 100%;
-    height: 100%;
+    height: 60%;
     position: relative;
     background: var(--white-color);
+    margin-top: 1em;
+    margin-bottom: 1em;
   
     img {
       width: 100%;
@@ -142,12 +145,18 @@
     border-radius: 0.5rem;
     opacity: 0;
     transition: all 0.3s ease;
+
+    a {
+      border-radius: 150%;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin: 1em;
+    }
   
     div {
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0);
       color: #fff;
   
       margin: 1rem;
@@ -155,11 +164,12 @@
       font-weight: 800;
       cursor: pointer;
       transition: all 0.3s ease;
-  
+      
       svg {
         width: 50%;
         height: 50%;
         color: var(--white-color);
+        border-radius: 100%;
       }
     }
   }

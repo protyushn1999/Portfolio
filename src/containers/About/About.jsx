@@ -25,7 +25,7 @@ const About = () => {
                         travelling or listening to music. 
                     </p>
                     <p>
-                        Fast forward to today, and I've had the priveledge of working at 
+                        Fast forward to today, and I've had the privilege of working at 
                         nurture.farm(an Agritech startup) and Fortanix.
                     </p>
                     <p>
@@ -34,10 +34,10 @@ const About = () => {
                             <li>Java</li>
                             <li>Spring Boot</li>
                             <li>C++</li>
+                            <li>Golang</li>
                             <li>JavaScript</li>
                             <li>Node.js</li>
                             <li>React</li>
-
                         </ul>
                     </p>
                     <p>

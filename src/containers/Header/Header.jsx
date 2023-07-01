@@ -51,7 +51,7 @@ const Header = () => {
                 <div className="header__content--icons">
                     <a href="https://github.com/protyushn1999" target="_blank"><BsGithub className="favIcons"/> </a>
                     <a href="https://www.linkedin.com/in/protyush-nayak/" target='_blank'><BsLinkedin className="favIcons" /></a>
-                    <a href="https://www.instagram.com/protyushnayak/" target="_blank"><BsInstagram className="favIcons" /></a>
+                    {/* <a href="https://www.instagram.com/protyushnayak/" target="_blank"><BsInstagram className="favIcons" /></a> */}
                     
                 </div>
             </div>

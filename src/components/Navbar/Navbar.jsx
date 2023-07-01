@@ -31,7 +31,7 @@ const Navbar = () => {
                         <a href="#footer" className ="hover-underline-animation">Contact</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1FGdhDr3BiaCe8YT8WfMnrND4h0lRykGM/view" target="_blank" className='resume'>resume</a>    
+                        <a href="https://drive.google.com/file/d/1FGdhDr3BiaCe8YT8WfMnrND4h0lRykGM/view" target="_blank" className='resume'>Resume</a>    
                     </li>
                 </ul>
             </div>
